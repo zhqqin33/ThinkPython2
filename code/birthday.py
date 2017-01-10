@@ -65,6 +65,9 @@ def count_matches(num_students, num_simulations):
 def main():
     """Runs the birthday simulation and prints the number of matches."""
     num_students = 23
+    # Changed by Qin
+    print('I am num_students')
+    # End of Qin
     num_simulations = 1000
     count = count_matches(num_students, num_simulations)
 
